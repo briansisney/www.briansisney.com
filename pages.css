@@ -1,0 +1,89 @@
+.profilepic{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+.image-container{
+  clear: both;
+}
+html,
+body {
+  height: 100%;
+  text-decoration: none; 
+  color: #222;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.site-wrapper {
+  width: 100%;
+  height: 100%;
+   /*For at least Firefox */
+  min-height: 100%; 
+  margin: auto;
+}
+
+.content{
+  float: left;
+  display: block;
+  margin: auto;
+  clear: both;
+  margin-top: 40px;
+
+}
+.highlight{
+  color: #f5496c;
+  margin: 0px;
+}
+.column{
+  float: left;
+  width: 40%;
+  margin: auto;
+  height: 90%;
+  padding: 1%;
+
+}
+.right-column{
+ text-align: right;
+  float: right;
+  display: block;
+  margin: auto;
+  width: 90%;
+  
+}
+.left-column{
+  text-align: left;
+  width: 80%;
+  float: left;
+  display: block;
+  margin: auto;
+  line-height: 150%;
+  clear: both;
+  padding-left: 1%;
+} 
+.left-column > p{
+  margin-top: 5px;
+}
+h1 {
+  color: #222;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 24px; 
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.mastfoot p a {
+  /*color: #EB3D1A; */
+  color:  #f5496c; 
+  text-decoration: none;
+}
+.mastfoot p a:hover {
+  color: #222; 
+}
+
+
